@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "prueba-dea8b": {
+      "hosting": {
+        "evaluacionFG": [
+          "prueba-dea8b"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "prueba-dea8b"
+  }
+}

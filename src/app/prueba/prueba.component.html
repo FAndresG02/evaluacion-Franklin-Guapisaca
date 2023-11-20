@@ -1,0 +1,14 @@
+
+<form>
+    <label for="nota">Nota:</label>
+    <input type="text" id="nota" name="nota" [(ngModel)]="nuevaNota.nota">
+  
+    <label for="fecha">Fecha:</label>
+    <input type="date" id="fecha" name="fecha" [(ngModel)]="nuevaNota.fecha">
+  
+    <label for="etiquetas">Etiquetas:</label>
+    <input type="text" id="etiquetas" name="etiquetas" [(ngModel)]="nuevaNota.etiquetas">
+  
+    <button type="button" (click)="agregarNota()">Añadir Nota</button>
+  </form>
+  
